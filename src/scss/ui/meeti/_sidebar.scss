@@ -1,0 +1,35 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.sidebar{
+
+    text-align: center;
+
+    &__imagen{
+
+    }
+
+    &__heading{
+        margin: 0;
+        font-size: 3rem;
+        font-weight: 500;
+        
+    }
+
+    &__contenido{
+        background-color: v.$secundario;
+        padding: 1rem 2rem;
+        color: v.$blanco;
+    }
+
+    &__texto{
+        color: v.$blanco;
+        font-size: 1.8rem;
+    }
+
+    &__span{
+        font-weight: 700;
+       
+    }
+
+}

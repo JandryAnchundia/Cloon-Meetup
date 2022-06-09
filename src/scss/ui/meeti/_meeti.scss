@@ -1,0 +1,25 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.contenido{
+
+   
+
+    &__heading{
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+.meeti-sidebar{
+    @include m.grid(3, 1rem);
+}
+
+
+.meeti{
+
+    grid-column: 1/3;
+
+   
+}
